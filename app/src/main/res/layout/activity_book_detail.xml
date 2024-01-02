@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE0B2"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <TextView
+        android:id="@+id/bookListTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Book List Uchose :"
+        android:textColor="#FF6F00"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:textColor="#FF6F00"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/authorTextView"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:textColor="#FF8F00"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:textColor="#FFA000"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/thumbnailImageView"
+        android:layout_width="232dp"
+        android:layout_height="300dp"
+        android:layout_marginBottom="8dp"
+        android:background="#FFF3E0"
+        android:src="@drawable/default_thumbnail" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal"
+        android:text="And here our tour will be ending ; hope u enjoyed our app !"
+        android:textColor="#FF6F00"
+        android:textSize="17sp"
+        android:textStyle="bold|italic" />
+    <Button
+        android:id="@+id/btnGoToSplashScreen"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginTop="16dp"
+        android:background="#FFA000"
+        android:text="Go Again to the Main Screen"
+        android:textColor="#000000" />
+
+
+</LinearLayout>

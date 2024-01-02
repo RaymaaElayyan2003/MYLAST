@@ -1,0 +1,61 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE8CC"
+    tools:context=".SearchActivity">
+
+    <EditText
+        android:id="@+id/etSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter book title or author" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:layout_below="@id/etSearch"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnSwitchApi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch API"
+        android:layout_below="@id/etSearch"
+        android:layout_toEndOf="@id/btnSearch"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp" />
+    <TextView
+        android:id="@+id/tvLongPressInstructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSwitchApi"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="-38dp"
+        android:layout_toEndOf="@id/btnSwitchApi"
+        android:text="*Long press to save the book to your list , enjoy choosing :)"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="13sp"
+        android:textStyle="bold|italic" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="540dp"
+        android:layout_below="@id/tvLongPressInstructions"
+        android:layout_marginTop="22dp" />
+
+    <Button
+        android:id="@+id/btnDirectToBookList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/listView"
+        android:layout_marginTop="8dp"
+        android:text="Directing to my book list"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

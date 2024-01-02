@@ -1,0 +1,7 @@
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="splash_background">#FFC107</color>
+    <color name="my_dark_primary">#YourColorValueHere</color>
+    <color name="my_light_primary">#FFA500</color> <!-- Orange color -->
+</resources>

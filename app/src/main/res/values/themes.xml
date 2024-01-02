@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme for light mode -->
+    <style name="Base.Theme.MYB" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/my_light_primary</item>
+    </style>
+
+    <!-- Theme for your application -->
+    <style name="Theme.MYB" parent="Base.Theme.MYB" />
+
+    <!-- Base application theme for dark mode -->
+    <style name="Base.Theme.MYB.Dark" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@color/my_dark_primary</item>
+    </style>
+
+    <!-- Theme for your application in dark mode -->
+    <style name="Theme.MYB.Dark" parent="Base.Theme.MYB.Dark" />
+
+</resources>

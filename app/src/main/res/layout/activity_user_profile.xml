@@ -1,0 +1,67 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:outlineAmbientShadowColor="#FFFFFF"
+    android:outlineSpotShadowColor="#FFFFFF"
+    android:padding="16dp"
+    android:background="#FFEFD5">
+
+    <TextView
+        android:id="@+id/textViewNewUsersTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="New Users"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/listViewNewUsers"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/textViewNewUsersTitle"
+        android:padding="16dp" />
+
+    <TextView
+        android:id="@+id/textViewExistingUsersTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/listViewNewUsers"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Existing Users"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewUsername"
+        android:layout_width="match_parent"
+        android:layout_height="222dp"
+        android:layout_below="@id/textViewExistingUsersTitle"
+        android:layout_marginTop="16dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/Mymsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewExistingUsersTitle"
+        android:layout_marginTop="256dp"
+        android:text="Dear Prof i know its not that interactive to put users info here but im only trying to display the shared preferences info here via the frontend.."
+        android:textColor="#FFA500"
+        android:textSize="22sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/buttonSearchBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewUsername"
+        android:layout_marginTop="140dp"
+        android:background="#80FFA500"
+        android:text="Click here now to search for the book"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+</RelativeLayout>

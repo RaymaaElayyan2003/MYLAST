@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MYB</string>
+    <string name="logo_description">Your Logo Description</string>
+    <string name="error_missing_data">Error: Missing data</string>
+
+</resources>
